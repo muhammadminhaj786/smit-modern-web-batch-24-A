@@ -1,0 +1,111 @@
+h2 {
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 14px;
+}
+
+/* element selector */
+h1 {
+    color: red;
+}
+
+/* class selector */
+.para {
+    color: red;
+}
+
+/* id selector */
+#secondheading {
+    color: blue;
+}
+
+
+#third-heading {
+    color: green;
+}
+
+#para3 {
+    color: blue;
+}
+
+
+* {
+    color: black;
+}
+
+p>span {
+    color: yellow;
+}
+/* 
+ol>li {
+    color: brown;
+} */
+
+p h1 h2 {
+
+}
+
+h~p {
+
+}
+
+/* * {
+    universal selector
+} */
+/* type selector */
+/* class selector */
+/* id selector */
+
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+
+/* selector {
+    properties: values
+} */
+
+p {
+    color:red;
+}
+
+
+/* TYPE SELECTOR */
+h4 {
+    color: green;
+}
+
+/* id selector */
+/* #heading1 {
+    color: red;
+}
+#heading2 {
+    color: red;
+}
+#heading3 {
+    color: red;
+}
+#heading4 {
+    color: yellow;
+}
+#heading5 {
+    color: brown;
+}
+#heading6 {
+    color: purple;
+} */
+
+
+/* class  selector */
+.heading1 {
+    color: red;
+}
+.heading2 {
+    color: blue;
+}

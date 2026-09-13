@@ -1,0 +1,96 @@
+/* h1 {
+    color: aqua;
+} */
+
+/* universal selector */
+/* * {
+    color: red;
+} */
+
+/* type selector */
+/* h3 {
+    color: green;
+}
+
+h3 {
+    color: blue;
+}
+
+* {
+    color: black;
+}
+
+#para2 {
+    color: red;
+}
+
+.para {
+    color: red;
+}
+
+p>span {
+    color: yellow;
+}
+
+h2+p {
+    color: aqua;
+} */
+
+/* h4+p {
+    color: green;
+} */
+
+/* h4~p {
+    color: green;
+} */
+
+/* h5+h1+h6 {
+    color: brown;
+} */
+
+/* h1+p {
+    color: orange;
+} */
+
+
+/* general sibling selector */
+/* h5~h6 {
+    color: aqua;
+} */
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    /* color: purple; */
+    /* color: #4EFC87; */
+    /* color: rgb(100, 0, 140); */
+    /* background-color: rgba(0, 0, 255, 1); */
+    /* opacity: 1; */
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+
+}
+
+p {
+    color: blue;
+    background-color: blueviolet;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+/* rgb */
+/* 255, 0 */
+
+/* NAME */
+/* hexcode */
+/* #rrggbb */
+/* #ff0000 */
+
+/* #rrggbb */
+
+/* #ff0000 */
