@@ -1,0 +1,48 @@
+/* h1 {
+    text-shadow: 5px 5px 10px red;
+} */
+
+/* border */
+/* 3 values */
+
+/* width , style, color */
+
+/* solid dashed dotted */
+h1 {
+    /* border: 1px solid black;
+    color: red; */
+    /* background-color: aqua; */
+    /* text-align: center; */
+    border-top: 1px solid red;
+    border-left: 1px solid green;
+    border-bottom: 2px solid black;
+    border-right: 2px solid orange;
+    /* width: 10%; */
+    /* width: 200px; */
+    padding-left: 100px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.box {
+    /* px , %, em  */
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    /* border-radius: 50%;
+    border-top-right-radius: 20px; */
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    /* display: inline; */
+}
+
+#parent {
+    display: inline;
+}
