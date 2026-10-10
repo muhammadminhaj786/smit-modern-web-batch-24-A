@@ -1,0 +1,78 @@
+h1 {
+    color: aqua;
+    border: 2px solid black;
+}
+
+#one {
+    color: green;
+}
+
+#two {
+    color: red;
+}
+
+/* #order {
+    color: aqua;
+} */
+
+ol {
+    /* list-style-type: lower-roman; */
+    /* list-style-position: inside; */
+}
+
+ul {
+    /* list-style-image: url("star1.jpg"); */
+    /* list-style-position: inside; */
+    /* list-style: inside circle; */
+    /* list-style-type: circle;
+    list-style-position: inside; */
+    list-style: inside circle;
+}
+
+#nested {
+    list-style-type: lower-alpha;
+}
+
+/* table {
+    border: 1px solid darkgray;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+} */
+
+table {
+    width: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    /* padding-left: 100px; */
+    text-transform: capitalize;
+    /* letter-spacing: 4px; */
+    font-size: 32px;
+
+}
+
+#one {
+    color: red;
+}
+
+#two:hover {
+    color: green;
+}

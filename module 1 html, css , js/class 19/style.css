@@ -1,0 +1,24 @@
+.box {
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+.box3 {
+    background-color: blue;
+}

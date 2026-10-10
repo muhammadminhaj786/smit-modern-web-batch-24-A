@@ -1,0 +1,141 @@
+h1 {
+    color: aqua;
+}
+
+li {
+    /* list-style-type: circle; */
+    /* list-style-image: url("star1.jpg"); */
+    list-style-position: inside;
+}
+
+/* 
+table {
+    border: 1px solid black;
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+    text-transform: capitalize;
+    border-spacing: 10px;
+
+}
+
+th {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+} */
+
+/* table {
+    empty-cells: hide;
+    width: 300px;
+} */
+
+table {
+    border: 1px solid black;
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0px auto;
+}
+
+th {
+    border: 1px solid black;
+    padding: 15px;
+
+}
+
+thead th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+tfoot td {
+    text-align: left;
+
+}
+
+tbody th {
+    background-color: lightgray;
+}
+
+#game {
+    background-color: lightgreen;
+    color: green;
+}
+
+/* label {
+    color: aquamarine;
+    font-size: 22px;
+} */
+
+/* 
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid red;
+    background-color: blue;
+    outline: none;
+    background-image: url('star1.jpg');
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+}
+
+input:focus {
+    border: 2px solid red;
+}
+
+button {
+    height: 30px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightskyblue;
+}
+
+button:hover {
+    background-color: blue;
+    cursor: pointer;
+} */
+
+form {
+    /* border: 1px solid black; */
+    /* width: 200px; */
+}
+
+fieldset {
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.btn {
+    /* border: 1px solid black; */
+    /* margin: 10px auto; */
+    width: 60px;
+}
+
+/* button {
+    width: 100%;
+} */
+
+.inp {
+    margin: 6px 0px;
+}
+
+button {
+    cursor: crosshair;
+}
