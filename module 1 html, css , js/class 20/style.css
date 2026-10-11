@@ -1,0 +1,70 @@
+    .box {
+        height: 100px;
+        width: 300px;
+        border: 1px solid black;
+    }
+
+    .box1 {
+        background-color: red;
+    }
+
+    .box2 {
+        background-color: green;
+        /* margin-top: 60px; */
+        /* position: relative; */
+        position: absolute;
+        top: 350px;
+        left: 500px;
+    }
+
+    .box3 {
+        background-color: blue;
+    }
+
+
+    .card {
+        width: 180px;
+        background-color: #FFD9C2;
+        border-radius: 20px;
+        padding: 12px;
+        /* margin-left: 400px; */
+        position: relative;
+
+    }
+
+    .card img {
+        width: 100%;
+
+    }
+
+    .tag {
+        padding: 4px;
+        background-color: red;
+        color: white;
+        border-radius: 2px;
+        position: absolute;
+        top: 12px;
+        left: 160px;
+    }
+
+    .overlay {
+        width: 600px;
+        height: 300px;
+        position: relative;
+
+    }
+
+    .overlay img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt {
+        position: absolute;
+        bottom: 90px;
+        /* left: 490px; */
+        /* color: white; */
+        right: 0;
+        bottom: 0;
+        color: white;
+    }
