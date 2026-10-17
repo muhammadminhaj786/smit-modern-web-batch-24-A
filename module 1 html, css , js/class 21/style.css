@@ -1,0 +1,39 @@
+/* html {
+    scroll-behavior: smooth;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+    position: fixed;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 40px;
+}
+
+.parent {
+
+    border: 1px solid black;
+
+}
+
+.main {
+    height: 1400px;
+} */
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+.main {
+    height: 800px;
+    border: 1px solid black;
+}
