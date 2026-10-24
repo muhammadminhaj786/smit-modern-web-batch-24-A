@@ -1,0 +1,64 @@
+.headings {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.parent {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+.box4 {
+    background-color: blue;
+}
+
+.box5 {
+    background-color: brown;
+}
+
+.box6 {
+    background-color: purple;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 340px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
