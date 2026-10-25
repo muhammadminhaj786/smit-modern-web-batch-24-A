@@ -1,0 +1,179 @@
+.logo {
+    width: 160px;
+    height: 44px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 280px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1),
+        0 1px 2px -1px rgba(0, 0, 0, .1);
+
+}
+
+li {
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.enroll-now {
+    background-color: #2076ee;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+.hero {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 74px;
+    color: #212121;
+    margin: 0px;
+
+}
+
+.hero span {
+    color: #2076EE;
+}
+
+.hero p {
+    color: #686868;
+    font-size: 20px;
+}
+
+.logo-say {
+    width: 160px;
+    height: 36px;
+}
+
+.laptop {
+    width: 100px;
+    height: 89px;
+    top: 40px;
+    left: 120px;
+}
+
+.arrow-down {
+    width: 160px;
+    height: 81px;
+    bottom: 70px;
+    left: 120px;
+}
+
+.arrow-up {
+    width: 180px;
+    height: 91px;
+    top: 80px;
+    right: 110px;
+}
+
+.globe {
+    width: 90px;
+    height: 122px;
+    bottom: 60px;
+    right: 140px;
+}
+
+.enr {
+    background-color: #2076EE;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+.cour {
+    background-color: white;
+    border: 1px solid lab(35.6337% -1.58697 -10.8425);
+    padding: 10px 24px;
+    color: lab(35.6337% -1.58697 -10.8425);
+    border-radius: 50px;
+}
+
+.abs {
+    position: absolute;
+}
+
+.btns {
+    margin: 16px 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    height: 270px;
+    align-items: flex-end;
+    margin: 20px 0px;
+}
+
+.left {
+    width: 310px;
+    height: 306px;
+}
+
+.mid {
+    width: 407px;
+    height: 260px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    background-color: lab(48.4493% 77.4328 61.5452);
+    height: 64px;
+    width: 64px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.play::after {
+    content: "";
+    /* width: 28px;
+    height: 28px; */
+    border-style: solid;
+    border-width: 10px 0px 10px 16px;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.right {
+    width: 310px;
+    height: 306px;
+}
+
+.gd-gradient {
+    background: linear-gradient(to right, rgb(32, 118, 238), rgba(142, 199, 69, 0.71));
+}
