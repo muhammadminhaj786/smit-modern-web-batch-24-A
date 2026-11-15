@@ -1,0 +1,28 @@
+.box {
+
+    max-width: 800px;
+    /* min-width: 800px; */
+    background-color: aqua;
+    height: 400px;
+    margin: 0 auto
+}
+
+/* small-mobile
+380px=>467px
+large mobile
+468px=>767px
+tablet
+768px=>1023px
+laptop
+1024px => 1439px
+desktop
+1440px => ++++ */
+
+
+/* keyword */
+
+@media (max-width: 767px) {
+    .box {
+        background-color: red;
+    }
+}

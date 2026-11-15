@@ -1,0 +1,12 @@
+
+
+1) signup github
+2) create new repo
+3) download and install git 
+https://git-scm.com/install/windows
+4) local  folder create karo open gitbash here
+
+git init
+git config --global user.name yahangithubkausername
+git config --global user.email apkagithubemail
+git add .

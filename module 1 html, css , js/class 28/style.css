@@ -1,0 +1,32 @@
+.car {
+    height: 200px;
+    /* width: 400px; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.car img {
+    height: 100%;
+    /* width: 100%; */
+    object-fit: contain;
+
+}
+
+img {
+    /* float: right; */
+    /* margin: 0 auto; */
+    /* display: block; */
+}
+
+.bg {
+    border: 2px solid green;
+    height: 500px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDVCcfJ_nD_Xjf5kOkY2qIrre4l9vpuI8Cpj30Fz421sOKazk4OTW_YQ&s=10');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* background: #2A7B9B; */
+    background: linear-gradient(90deg, rgba(42, 123, 155, 0.1) 0%, rgba(87, 199, 133, 0.4) 10%, rgba(237, 221, 83, 1) 100%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDVCcfJ_nD_Xjf5kOkY2qIrre4l9vpuI8Cpj30Fz421sOKazk4OTW_YQ&s=10') no-repeat;
+}

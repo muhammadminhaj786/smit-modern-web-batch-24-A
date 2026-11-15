@@ -1,0 +1,10 @@
+
+
+1) signup github
+2) create repo 
+3)download and install git
+https://git-scm.com/install/windows
+4)git config --global user.name apnagithubusername
+5)git config --global user.email apkagithubuseremail
+6) git init
+7) git add .
